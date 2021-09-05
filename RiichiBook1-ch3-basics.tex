@@ -25,8 +25,8 @@ Because of the probabilistic nature of the game, making the best choice does not
 \noindent
 This hand becomes ready to win if you discard {\LARGE\tong{6}} or {\LARGE\tong{7}}. Let's compare the two choices.
 \bi\itemsep.1pt
-\i Discard {\LARGE\tong{6}} \hspace{5pt} $\Rightarrow$ you wait for {\LARGE\tong{5} \tong{8}} (2 kinds--8 tiles)
-\i Discard {\LARGE\tong{7}} \hspace{5pt} $\Rightarrow$ you wait for {\LARGE\wan{4}} {\LARGE\tong{6}} (2 kinds--4 tiles)
+\i Discard {\LARGE\tong{6}} $\Rightarrow$ you wait for {\LARGE\tong{5} \tong{8}} (2 kinds--8 tiles)
+\i Discard {\LARGE\tong{7}} $\Rightarrow$ you wait for {\LARGE\wan{4}} {\LARGE\tong{6}} (2 kinds--4 tiles)
 \ei
 Which discard choice is better? Although both of the two choices yield a 2-way wait, waiting for {\LARGE\tong{5} \tong{8}} is much better than waiting for {\LARGE\wan{4}} {\LARGE\tong{6}}, probabilistically speaking. With the {\LARGE\tong{5} \tong{8}} wait, there are four tiles of {\LARGE\tong{5}} and another four tiles of {\LARGE\tong{8}} to win on, leaving at most eight winning tiles.\footnote{Of course, the number of winning tiles could be smaller than eight if some of them have already been discarded.} 
 With the {\LARGE\wan{4}} {\LARGE\tong{6}} wait, on the other hand, you have already used up two tiles of {\LARGE\wan{4}} and two tiles of {\LARGE\tong{6}} yourself, leaving at most four winning tiles. It is clearly better to choose the {\LARGE\tong{5} \tong{8}} wait over the {\LARGE\wan{4}} {\LARGE\tong{6}} wait, because that will give you a higher probability of winning this hand. 
@@ -49,7 +49,7 @@ Mahjong tiles can be classified into two categories --- number tiles and honor t
 \begin{itembox}[c]{Number tiles}
 \centering
 \begin{tabular}{l c c}
-{Cracks (characters)} & {\jap Manzu} & {\Huge\wan{1}\wan{2}\wan{3}\wan{4}\wan{5}\wan{6}\wan{7}\wan{8}\wan{9}}\\ [\sep]
+{Characters} & {\jap Manzu} & {\Huge\wan{1}\wan{2}\wan{3}\wan{4}\wan{5}\wan{6}\wan{7}\wan{8}\wan{9}}\\ [\sep]
 {Dots (circles)} & {\jap Pinzu} & {\Huge \tong{1}\tong{2}\tong{3}\tong{4}\tong{5}\tong{6}\tong{7}\tong{8}\tong{9}}\\ [\sep]
 {Bamboos} & {\jap Souzu} & {\Huge\suo{1}\suo{2}\suo{3}\suo{4}\suo{5}\suo{6}\suo{7}\suo{8}\suo{9}}\\
 \end{tabular}
@@ -144,7 +144,7 @@ More generally, we say a hand is $n$-away from ready ($n$-{\jap shanten}) when t
 \ep
 \end{itembox} \vspace{5pt}
 \noindent
-This hand accepts all the tiles that the 1-away hand above accepts ({\LARGE\tong{4}\tong{5}\tong{8}\suo{1}\suo{4}}), plus seven additional kinds of tiles {\LARGE\tong{3}\suo{2}\suo{3}\suo{5}\suo{6}\suo{7}\suo{8}}.\footnote{\tong{3}\suo{2}\suo{3}\suo{6} will make this hand 1-away for {\jap chiitoitsu} (Seven Pairs).} 
+This hand accepts all the tiles that the 1-away hand above accepts\\({\LARGE\tong{4}\tong{5}\tong{8}\suo{1}\suo{4}}), plus seven additional kinds of tiles\\{\LARGE\tong{3}\suo{2}\suo{3}\suo{5}\suo{6}\suo{7}\suo{8}}.\footnote{\tong{3}\suo{2}\suo{3}\suo{6} will make this hand 1-away for {\jap chiitoitsu} (Seven Pairs).} 
 The hand will become 1-away if any of these tiles gets drawn. 
 
 \bigskip
@@ -568,7 +568,7 @@ Consider the following hand. What would you discard?
 \vspace{-10pt}What would you discard? \vspace{-5pt}
 \end{itembox}
 \noindent
-There are two protorun plus one shapes in this hand: {\LARGE\wan{4}\wan{4}\wan{6}} and {\LARGE\tong{3}\tong{3}\tong{4}}. We have to break one of the two into either an isolated Pair or an isolated protorun, because the other parts of this hand are more or less self-sufficient. Which one should we choose?
+There are two protorun plus one shapes in this hand: {\LARGE\wan{4}\wan{4}\wan{6}} and\\{\LARGE\tong{3}\tong{3}\tong{4}}. We have to break one of the two into either an isolated Pair or an isolated protorun, because the other parts of this hand are more or less self-sufficient. Which one should we choose?
 
 \bigskip
 When choosing between which protoruns plus one to break, priority should be given to the weaker one. Since the side-wait protorun {\LARGE\tong{3}\tong{4}} is much stronger than the closed-wait protorun {\LARGE\wan{4}\wan{6}}, we should prioritize the latter and maintain {\LARGE\wan{4}\wan{4}\wan{6}}. In other words, the side-wait protorun {\LARGE\tong{3}\tong{4}} is so strong that we do not need to provide a cover by maintaining the ``plus one'' tile, {\LARGE\tong{3}}. On the other hand, the closed-wait protorun {\LARGE\wan{4}\wan{6}} is weaker so we should cover it by keeping another {\LARGE\wan{4}} as a back-up. You should thus discard {\LARGE\tong{3}}. 
