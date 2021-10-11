@@ -66,6 +66,7 @@ We further classify number tiles into {\bf simples} ({\jap tanyao hai}; tiles be
 
 \bigskip
 It has become quite common to include some red five tiles. For example, most games on {\jap Tenhou} have one red five tile in each suit, {\LARGE \rfw~\rfd~\rfs}. These tiles are included in place of regular fives; we have three regular fives and one red five in each suit. Red fives are treated as {\jap dora} regardless of the {\jap dora} indicator. When a 4 in a given suit is the {\jap dora} indicator, the red five in that suit will be a double {\jap dora} tile. 
+\newpage
 
 %\vfill
 \bigskip
@@ -215,12 +216,14 @@ As we can see in the table, a {\bf side-wait} ({\jap ryanmen}) protorun can acce
 There is no difference in the kinds and the number of tiles accepted by closed-wait and edge-wait protoruns; they both accept 1 kind--4 tiles. However, closed-wait protoruns are superior to edge-wait ones because they can more easily evolve into a side-wait protorun. 
 
 \bigskip
-A closed-wait protorun can evolve into a side-wait protorun in just one step. For example, a protorun {\LARGE\tong{1}\tong{3}} can become a side-wait one if you draw {\LARGE\tong{4}} and discard {\LARGE\tong{1}}. 
+A closed-wait protorun can evolve into a side-wait protorun in just one step. For example, a protorun {\LARGE\tong{1}\tong{3}} can become a side-wait one if you draw {\LARGE\tong{4}} and discard {\LARGE\tong{1}}. \\
 \begin{center}
+%\vspace{2mm}
 {\LARGE \tong{1}\tong{3} ~~$\Rightarrow$~~ \tong{3}\tong{4}}\\
 draw {\Large\tong{4}}
 \end{center}
 
+\bigskip
 On the other hand, it requires two steps for an edge-wait protorun to evolve into a side-wait protorun. For example, a protorun {\LARGE\tong{8}\tong{9}} can become a side-wait one if you draw {\LARGE\tong{6}} first and then {\LARGE\tong{5}}. \\
 \begin{center}
 {\LARGE \tong{8}\tong{9} ~~$\Rightarrow$~~ \tong{6}\tong{8} ~~ $\Rightarrow$ ~~ 
@@ -408,6 +411,7 @@ When a 1-away hand has two side-wait protoruns and two pairs, it is called {\bf 
 \subsubsection{Perfect 2-away}
 	\index{2-away (2-{\jap shanten})!perfect 2-away}
 One step prior to achieving perfect 1-away, we may get a perfect 2-away hand. Perfect 2-away is made up with three side-wait protoruns and three pairs, as follows.
+\newpage
 \bigskip
 \begin{itembox}[r]{Perfect 2-away}
 \bp
@@ -463,6 +467,7 @@ This hand is now 1-away from ready, and our discard choice is between {\LARGE\su
 
 \bigskip
 Let's say we draw {\LARGE\tong{4}} after that, resulting in the following hand.
+\newpage
 \bigskip
 \begin{itembox}[r]{Advancing a hand 4}
 \bp
@@ -500,6 +505,7 @@ There are two kinds of three-tile complex shapes --- double closed shape and pro
 	\index{ryankan@{\jap ryankan} (double closed) shape}
 When two closed-wait protoruns are combined, we have a {\bf double closed} ({\jap ryankan}) shape. 
 There are five different patterns in each suit, as follows.
+\newpage
 \bp
 \suo{1}\suo{3}\suo{5}~~\suo{2}\suo{4}\suo{6}~~\suo{3}\suo{5}\suo{7}\\
 \suo{4}\suo{6}\suo{8}~~\suo{5}\suo{7}\suo{9}
@@ -511,6 +517,7 @@ Each shape accepts as many as 2 kinds--8 tiles. For example, {\LARGE\suo{1}\suo{
 Sometimes a double closed shape is embedded within a tile block, making it difficult to detect it. 
 For example, consider the following 1-away hand. 
 
+\bigskip
 \begin{itembox}[r]{Hand with a double closed shape}
 \bigskip
 \vspace{-5pt}
@@ -574,6 +581,7 @@ A protorun plus one can accept two additional tiles that an isolated protorun ca
 
 \bigskip
 Breaking a protorun plus one can be inefficient. For example, if we break a closed wait plus one shape into an isolated pair (i.e., discard {\LARGE\tong{4}} from {\LARGE \tong{2}\tong{2}\tong{4}}), the tile acceptance decreases from 6 to 2; it can accept only {\LARGE\tong{2}} (1 kind--2 tiles). Similarly, if we break it into an isolated protorun (i.e., discard {\LARGE\tong{2}} from {\LARGE \tong{2}\tong{2}\tong{4}}), the tile acceptance decreases from 6 to 4; it can accept only {\LARGE\tong{3}} (1 kind--4 tiles). With this in mind, consider the following hand.
+\newpage
 
 \begin{itembox}[r]{Protorun plus one}
 \bigskip
@@ -592,6 +600,7 @@ Discarding {\LARGE\wan{5}} or {\LARGE\wan{7}} to break the protorun plus one {\L
 Sometimes we have to make a choice between multiple protorun plus one shapes, just like we did in examples in Section \ref{sec:ptat}. 
 Consider the following hand. What would you discard?
 
+\bigskip
 \begin{itembox}[r]{Multiple protoruns plus one}
 \bigskip
 \bp
@@ -704,6 +713,7 @@ It is true that discarding {\LARGE\wan{3}} or {\LARGE\wan{6}} would lead to the 
 Try to keep a stretched single shape if a hand has one. In particular, 3456 and 4567 should be kept until the hand becomes ready or 1-away from ready. 
 \end{itembox}
 \normalcolor
+\newpage
 
 %\bigskip
 
@@ -728,6 +738,7 @@ Discarding {\LARGE\wan{4}} to break the bulging float shape is not ideal. Althou
 
 \bigskip
 That being said, when this shape remains as is when a hand is ready, it does not make for a good wait. For example, consider the following ready hand. 
+\bigskip
 \begin{itembox}[r]{Ready hand with a bulging float shape}
 \bigskip
 \bp
@@ -975,8 +986,9 @@ Example & Combination & Wait & Acceptance\\
 
 %\bigskip
 When a set is combined with a protorun, pair, or a four-tile shape, we get even more complicated waits. Table \ref{tbl:waits6} summarizes only a few representative examples. 
+\newpage
 
-{\begin{table}[t!]\centering \small \captionsetup{font=footnotesize}
+{\begin{table}[t]\centering \small \captionsetup{font=footnotesize}
 \caption{Some irregular waits (set and a protorun, pair, or a four-tile shape)} \begin{tabular}{l c c}
 \toprule
 Example & Wait & Acceptance\\
@@ -995,7 +1007,8 @@ Example & Wait & Acceptance\\
 \end{table}}
 
 
-\clearpage
+%\clearpage
+\mbox{}\newpage
 
 \section{Glossary}
 
